@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { TRandomData } from '../randomData';
 import styles from './styleSheetRenderItem';
-import { CardTitle } from '../../../UI';
+import { CardTitle, PanelLabelAndValue, RowUI } from '../../../UI';
 
 type TRenderItem = {
   item: TRandomData;
@@ -12,10 +12,10 @@ export default function RenderItem({ item }: TRenderItem) {
     <View style={styles.card}>
       <CardTitle title={item.appName} />
       <View style={styles.cardDescription}>
-        <View>
-          <Text>{ item.actionTaken }</Text>
-          <Text>{ item.meetingType }</Text>
-        </View>
+        <RowUI>
+          <PanelLabelAndValue {...{ title: 'Meeting Type', value: item.meetingType }} />
+          <PanelLabelAndValue {...{ title: 'Action Taken', value: item.actionTaken }} />
+        </RowUI>
       </View>
     </View>
   );
