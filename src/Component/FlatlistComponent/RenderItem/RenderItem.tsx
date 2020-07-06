@@ -1,8 +1,9 @@
 import React from 'react';
-import { ListRenderItem, View } from 'react-native';
+import { View } from 'react-native';
+import { TRandomData } from '../randomData';
 
 type TRenderItem = {
-  item: any;
+  item: TRandomData;
 };
 export default function RenderItem({ item }: TRenderItem) {
   return <View />;
