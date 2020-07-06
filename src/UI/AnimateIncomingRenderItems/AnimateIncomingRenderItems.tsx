@@ -3,15 +3,17 @@ import { Animated, Dimensions } from 'react-native';
 import styles from './styleSheetAnimateIncomingRenderItems';
 
 type TAnimateIncomingRenderItems = {
-    index: number;
-    trigger: boolean;
-    children: React.ReactNode;
-}
+  index: number;
+  trigger: boolean;
+  children: React.ReactNode;
+};
 const { height: HEIGHT } = Dimensions.get('screen');
 
-export default function AnimateIncomingRenderItems(
-  { index, trigger, children }: TAnimateIncomingRenderItems,
-) {
+export default function AnimateIncomingRenderItems({
+  index,
+  trigger,
+  children,
+}: TAnimateIncomingRenderItems) {
   const translateY = new Animated.Value(HEIGHT);
   useEffect(() => {
     if (trigger) {

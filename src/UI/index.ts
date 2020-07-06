@@ -1,1 +1,3 @@
-export { default as AnimateIncomingRenderItems } from './AnimateIncomingRenderItems/AnimateIncomingRenderItems';
+export {
+  default as AnimateIncomingRenderItems,
+} from './AnimateIncomingRenderItems/AnimateIncomingRenderItems';

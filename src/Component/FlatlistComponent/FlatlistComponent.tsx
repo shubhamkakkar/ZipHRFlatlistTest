@@ -6,16 +6,17 @@ import { flatlistDefaultProps } from '../../globals/globalFlatListProps';
 
 export default function FlatlistComponent() {
   return (
-    <FlatList<string> {...{
-      data: [],
-      keyExtractor: (_, index) => index.toString(),
-      renderItem: ({ item, index } : { item : string, index: number }) => (
-        <AnimateIncomingRenderItems {...{ trigger: false, index }}>
-          <RenderItem {...{ item }} />
-        </AnimateIncomingRenderItems>
-      ),
-      ...flatlistDefaultProps,
-    }}
+    <FlatList<string>
+      {...{
+        data: [],
+        keyExtractor: (_, index) => index.toString(),
+        renderItem: ({ item, index }: { item: string; index: number }) => (
+          <AnimateIncomingRenderItems {...{ trigger: false, index }}>
+            <RenderItem {...{ item }} />
+          </AnimateIncomingRenderItems>
+        ),
+        ...flatlistDefaultProps,
+      }}
     />
   );
 }

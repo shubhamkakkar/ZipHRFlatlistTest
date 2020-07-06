@@ -2,10 +2,8 @@ import React from 'react';
 import { ListRenderItem, View } from 'react-native';
 
 type TRenderItem = {
-    item: any
-}
+  item: any;
+};
 export default function RenderItem({ item }: TRenderItem) {
-  return (
-    <View />
-  );
+  return <View />;
 }
