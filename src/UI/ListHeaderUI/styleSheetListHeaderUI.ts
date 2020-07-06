@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import theme from '../../theme';
 
 const styles = StyleSheet.create({
   container: {
@@ -10,12 +11,12 @@ const styles = StyleSheet.create({
   },
   listHeaderTitleContainer: {
     borderRadius: 20,
-    backgroundColor: '#E366A720',
+    backgroundColor: theme.darkestShadePrimaryColor + 10,
     paddingVertical: 10,
     paddingHorizontal: 20,
   },
   title: {
-    color: '#E366A7',
+    color: theme.darkestShadePrimaryColor,
     fontWeight: 'bold',
   },
 });

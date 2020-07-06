@@ -1,9 +1,10 @@
 import { StyleSheet } from 'react-native';
+import theme from '../../theme';
 
 const styles = StyleSheet.create({
   containerCardTitle: {
     borderBottomWidth: 1,
-    borderBottomColor: '#e5e5e5',
+    borderBottomColor: theme.primaryColor + 80,
     paddingBottom: 5,
     marginHorizontal: 10,
     paddingTop: 10,
@@ -13,7 +14,7 @@ const styles = StyleSheet.create({
   },
   cardTitleText: {
     fontWeight: 'bold',
-    fontSize: 17,
+    fontSize: 16,
     lineHeight: 24,
   },
 });

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import styles from './styleSheetCardTitle';
+import theme from '../../theme';
 
 type TCardTitle = {
     title: string;
@@ -14,7 +15,7 @@ export default function CardTitle({ title, center, color } : TCardTitle) {
         <Text
           style={[
             styles.cardTitleText,
-            { textAlign: center ? 'center' : 'left', color: color || 'black' },
+            { textAlign: center ? 'center' : 'left', color: color || theme.primaryColor },
           ]}
         >
           {title}
