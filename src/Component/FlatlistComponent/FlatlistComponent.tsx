@@ -8,13 +8,14 @@ import { useBooleanState } from '../../customHooks';
 
 export default function FlatlistComponent() {
   const [data, setData] = useState<TRandomData[]>(randomData);
-  const [loader, toggleLoader] = useBooleanState();
-
+  const [loader, , setLoader] = useBooleanState();
   function shuffleData() {
-    toggleLoader(); // made loader true
-    const shuffledRandomData = data.sort(() => Math.random() - 0.5);
-    setData(shuffledRandomData);
-    toggleLoader(); // made loader false
+    setLoader(true); // made loader true
+    setTimeout(() => {
+      const shuffledRandomData = data.sort(() => Math.random() - 0.5);
+      setData(shuffledRandomData);
+      setLoader(false); // made loader false
+    }, 2500);
   }
 
   return (
@@ -25,7 +26,7 @@ export default function FlatlistComponent() {
         keyExtractor: (_, index) => index.toString(),
         ListHeaderComponent: <ListHeaderUI title={`Clients (${data.length})`} />,
         renderItem: ({ item, index }: { item: TRandomData; index: number }) => (
-          <AnimateIncomingRenderItems {...{ trigger: loader, index }}>
+          <AnimateIncomingRenderItems {...{ trigger: !loader, index }}>
             <RenderItem {...{ item }} />
           </AnimateIncomingRenderItems>
         ),
