@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { checkInternetConnection } from 'react-native-offline';
 import { useBooleanState } from '../index';
 

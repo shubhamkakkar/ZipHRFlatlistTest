@@ -4,8 +4,7 @@ import { AnimateIncomingRenderItems, ListHeaderUI } from '../../UI';
 import RenderItem from './RenderItem/RenderItem';
 import { flatlistDefaultProps } from '../../globals/globalFlatListProps';
 import { TRandomData, randomData } from './randomData';
-import { useBooleanState } from '../../customHooks';
-import useNetworkState from '../../customHooks/useNetworkState/useNetworkState';
+import { useBooleanState, useNetworkState } from '../../customHooks';
 
 export default function FlatlistComponent() {
   const [data, setData] = useState<TRandomData[]>(randomData);
