@@ -1,11 +1,11 @@
 export type TRandomData = {
-    actionTaken: string;
-    appName: string;
-    meetingType: string;
-    phoneNumber: string;
-}
+  actionTaken: string;
+  appName: string;
+  meetingType: string;
+  phoneNumber: string;
+};
 
-export const randomData:TRandomData[] = [
+export const randomData: TRandomData[] = [
   {
     actionTaken: 'Sold Base-1',
     appName: 'Live Mega Marts',

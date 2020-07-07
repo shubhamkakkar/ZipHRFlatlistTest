@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { checkInternetConnection } from 'react-native-offline';
 import { useBooleanState } from '../index';
 
-export default function useNetworkState():[boolean] {
+export default function useNetworkState(): [boolean] {
   const [isConnected, , setIsConnected] = useBooleanState();
   useEffect(() => {
     checkInternetConnection()

@@ -3,17 +3,15 @@ import { View, Text } from 'react-native';
 import styles from './styleSheetPanelLabelAndValue';
 
 type TPanelLabelAndValue = {
-    title: string;
-    value: number | string;
-}
+  title: string;
+  value: number | string;
+};
 
-export default function PanelLabelAndValue({ title, value }:TPanelLabelAndValue) {
+export default function PanelLabelAndValue({ title, value }: TPanelLabelAndValue) {
   return (
     <View style={[styles.container]}>
       <Text style={[styles.panelTextLabel]}>{title}</Text>
-      <Text style={[styles.panelTextValue]}>
-        {value.toString().trim()}
-      </Text>
+      <Text style={[styles.panelTextValue]}>{value.toString().trim()}</Text>
     </View>
   );
 }

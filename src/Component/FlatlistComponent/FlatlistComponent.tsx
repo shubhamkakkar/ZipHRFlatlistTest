@@ -13,8 +13,8 @@ export default function FlatlistComponent() {
   const [loader, , setLoader] = useBooleanState();
   function shuffleData() {
     /*
-    * This function could be used to get data from an API
-    * */
+     * This function could be used to get data from an API
+     * */
     if (isConnected) {
       setLoader(true);
       // made loader true
@@ -25,8 +25,8 @@ export default function FlatlistComponent() {
       }, 2500);
     } else {
       /*
-      * For Now we are rendering old data
-      */
+       * For Now we are rendering old data
+       */
       Alert.alert(
         'Internet Connectivity Failed',
         'You are having trouble with network connectivity, please ensure stable internet connectivity',

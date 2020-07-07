@@ -3,8 +3,8 @@ import { View, Text } from 'react-native';
 import styles from './styleSheetListHeaderUI';
 
 type TListHeaderUI = {
-    title: string
-}
+  title: string;
+};
 
 export default function ListHeaderUI({ title }: TListHeaderUI) {
   return (

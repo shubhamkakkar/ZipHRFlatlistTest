@@ -4,11 +4,11 @@ import styles from './styleSheetCardTitle';
 import theme from '../../theme';
 
 type TCardTitle = {
-    title: string;
-    color?: string;
-    center?:boolean
-}
-export default function CardTitle({ title, center, color } : TCardTitle) {
+  title: string;
+  color?: string;
+  center?: boolean;
+};
+export default function CardTitle({ title, center, color }: TCardTitle) {
   return (
     <View style={styles.containerCardTitle}>
       <View style={styles.cardTitleContainer}>

@@ -1,3 +1,1 @@
-export {
-  default as FlatlistComponent,
-} from './FlatlistComponent/FlatlistComponent';
+export { default as FlatlistComponent } from './FlatlistComponent/FlatlistComponent';
