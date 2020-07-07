@@ -10,6 +10,9 @@ export default function FlatlistComponent() {
   const [data, setData] = useState<TRandomData[]>(randomData);
   const [loader, , setLoader] = useBooleanState();
   function shuffleData() {
+    /*
+    * This function could be used to get data from an API
+    * */
     setLoader(true); // made loader true
     setTimeout(() => {
       const shuffledRandomData = data.sort(() => Math.random() - 0.5);
