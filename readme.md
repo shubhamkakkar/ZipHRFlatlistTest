@@ -5,10 +5,10 @@ Steps
 3. Navigate into the repository
 4. if using yarn run `yarn` else if usinng npm run `npm run install`
 5. Start your android emulator 
-5.1 run `yarn start` followed by `yarn android` in another terminal window // use respective npm commands if not using yarn
-6. if using iOS simulator
-6.1 run `yarn start` followed by `yarn ios` in another terminal window // use respective npm commands if not using yarn
-7. To run test: yarn jest [[ or: npm run jest ]]
+6 run `yarn start` followed by `yarn android` in another terminal window // use respective npm commands if not using yarn
+7. if using iOS simulator
+8. run `yarn start` followed by `yarn ios` in another terminal window // use respective npm commands if not using yarn
+9. To run test: yarn jest [[ or: npm run jest ]]
 
   
 PS:
