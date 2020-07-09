@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHeaderUI matches snapshot - props: {{ title: "" }} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginTop": 5,
+      "marginVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#3e0f7910",
+        "borderRadius": 20,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#3e0f79",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ListHeaderUI matches snapshot - props: {{ title: "title" }} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginTop": 5,
+      "marginVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#3e0f7910",
+        "borderRadius": 20,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#3e0f79",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      title
+    </Text>
+  </View>
+</View>
+`;

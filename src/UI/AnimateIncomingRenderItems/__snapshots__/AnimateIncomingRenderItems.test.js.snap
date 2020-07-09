@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimateIncomingRenderItems matches snapshot - props: {{ index: 0, trigger: false, }} 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "transform": Array [
+        Object {
+          "translateY": 1334,
+        },
+      ],
+    }
+  }
+>
+  <View />
+</View>
+`;
+
+exports[`AnimateIncomingRenderItems matches snapshot - props: {{ index: 0, trigger: true, }} 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "transform": Array [
+        Object {
+          "translateY": 1334,
+        },
+      ],
+    }
+  }
+>
+  <View />
+</View>
+`;

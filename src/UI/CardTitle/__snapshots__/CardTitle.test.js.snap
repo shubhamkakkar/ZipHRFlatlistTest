@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTitle matches snapshot - props: {{  title: "Title" }} 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b2cbf80",
+      "borderBottomWidth": 1,
+      "marginHorizontal": 10,
+      "paddingBottom": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#7b2cbf",
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardTitle matches snapshot - props: {{ title: "Title" , center: true }} 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b2cbf80",
+      "borderBottomWidth": 1,
+      "marginHorizontal": 10,
+      "paddingBottom": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#7b2cbf",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardTitle matches snapshot - props: {{ title: "Title", color: "red"  , center: true}} 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b2cbf80",
+      "borderBottomWidth": 1,
+      "marginHorizontal": 10,
+      "paddingBottom": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "red",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`CardTitle matches snapshot - props: {{ title: "Title", color: "red" }} 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#7b2cbf80",
+      "borderBottomWidth": 1,
+      "marginHorizontal": 10,
+      "paddingBottom": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "red",
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelLabelAndValue matches snapshot - props: {{ title: "", value: "" }} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginHorizontal": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#777777",
+          "fontSize": 14,
+          "lineHeight": 19,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "lineHeight": 19,
+          "marginTop": 5,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`PanelLabelAndValue matches snapshot - props: {{ title: "", value: 0 }} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginHorizontal": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#777777",
+          "fontSize": 14,
+          "lineHeight": 19,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "lineHeight": 19,
+          "marginTop": 5,
+        },
+      ]
+    }
+  >
+    0
+  </Text>
+</View>
+`;
+
+exports[`PanelLabelAndValue matches snapshot - props: {{ title: "title", value: "" }} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginHorizontal": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#777777",
+          "fontSize": 14,
+          "lineHeight": 19,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "lineHeight": 19,
+          "marginTop": 5,
+        },
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`PanelLabelAndValue matches snapshot - props: {{ title: "title", value: 0 }} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginHorizontal": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#777777",
+          "fontSize": 14,
+          "lineHeight": 19,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "lineHeight": 19,
+          "marginTop": 5,
+        },
+      ]
+    }
+  >
+    0
+  </Text>
+</View>
+`;

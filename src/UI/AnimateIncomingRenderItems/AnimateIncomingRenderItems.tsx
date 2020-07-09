@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Animated, Dimensions, Easing } from 'react-native';
+import { Animated, Dimensions } from 'react-native';
 import styles from './styleSheetAnimateIncomingRenderItems';
 
 type TAnimateIncomingRenderItems = {
@@ -22,7 +22,6 @@ export default function AnimateIncomingRenderItems({
         delay: index < 10 ? index * 50 : 20,
         useNativeDriver: true,
         duration: 500,
-        easing: Easing.linear,
       }).start();
     }
   }, [trigger]);

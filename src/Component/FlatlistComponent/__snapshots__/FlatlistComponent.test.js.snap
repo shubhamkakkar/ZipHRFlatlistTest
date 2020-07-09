@@ -1,0 +1,1774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlatlistComponent matches snapshot 1`] = `
+<RCTScrollView
+  ListHeaderComponent={
+    <ListHeaderUI
+      title="Clients (7)"
+    />
+  }
+  data={
+    Array [
+      Object {
+        "actionTaken": "Sold Base-1",
+        "appName": "Live Mega Marts",
+        "meetingType": "Sell",
+        "phoneNumber": "9818163250",
+      },
+      Object {
+        "actionTaken": "Sold Base-2",
+        "appName": "Mega Marts",
+        "meetingType": "Sell",
+        "phoneNumber": "9800163250",
+      },
+      Object {
+        "actionTaken": "Demo Base-1",
+        "appName": "McD",
+        "meetingType": "Demo",
+        "phoneNumber": "9818160532",
+      },
+      Object {
+        "actionTaken": "Demo Base-2",
+        "appName": "Domino Center",
+        "meetingType": "Demo",
+        "phoneNumber": "9818002587",
+      },
+      Object {
+        "actionTaken": "Sold Base-1",
+        "appName": "Wall Mart",
+        "meetingType": "Sell",
+        "phoneNumber": "9818163254",
+      },
+      Object {
+        "actionTaken": "Demo Base-1",
+        "appName": "Metro Origins",
+        "meetingType": "Demo",
+        "phoneNumber": "9818163287",
+      },
+      Object {
+        "actionTaken": "Sold Base-2",
+        "appName": "Single Malt",
+        "meetingType": "Sell",
+        "phoneNumber": "8918163250",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  extraData={
+    Array [
+      Object {
+        "actionTaken": "Sold Base-1",
+        "appName": "Live Mega Marts",
+        "meetingType": "Sell",
+        "phoneNumber": "9818163250",
+      },
+      Object {
+        "actionTaken": "Sold Base-2",
+        "appName": "Mega Marts",
+        "meetingType": "Sell",
+        "phoneNumber": "9800163250",
+      },
+      Object {
+        "actionTaken": "Demo Base-1",
+        "appName": "McD",
+        "meetingType": "Demo",
+        "phoneNumber": "9818160532",
+      },
+      Object {
+        "actionTaken": "Demo Base-2",
+        "appName": "Domino Center",
+        "meetingType": "Demo",
+        "phoneNumber": "9818002587",
+      },
+      Object {
+        "actionTaken": "Sold Base-1",
+        "appName": "Wall Mart",
+        "meetingType": "Sell",
+        "phoneNumber": "9818163254",
+      },
+      Object {
+        "actionTaken": "Demo Base-1",
+        "appName": "Metro Origins",
+        "meetingType": "Demo",
+        "phoneNumber": "9818163287",
+      },
+      Object {
+        "actionTaken": "Sold Base-2",
+        "appName": "Single Malt",
+        "meetingType": "Sell",
+        "phoneNumber": "8918163250",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "marginTop": 5,
+            "marginVertical": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#3e0f7910",
+              "borderRadius": 20,
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#3e0f79",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Clients (7)
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Live Mega Marts
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sell
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sold Base-1
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9818163250
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Mega Marts
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sell
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sold Base-2
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9800163250
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                McD
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo Base-1
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9818160532
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Domino Center
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo Base-2
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9818002587
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Wall Mart
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sell
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sold Base-1
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9818163254
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Metro Origins
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Demo Base-1
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  9818163287
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderColor": "#7b2cbf80",
+              "borderRadius": 5,
+              "borderWidth": 0.5,
+              "flex": 1,
+              "margin": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "borderBottomColor": "#7b2cbf80",
+                "borderBottomWidth": 1,
+                "marginHorizontal": 10,
+                "paddingBottom": 5,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 16,
+                      "fontWeight": "bold",
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "#7b2cbf",
+                      "textAlign": "left",
+                    },
+                  ]
+                }
+              >
+                Single Malt
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "marginHorizontal": 20,
+                "marginTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Meeting Type
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sell
+                </Text>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Action Taken
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  Sold Base-2
+                </Text>
+              </View>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 15,
+                      "marginHorizontal": 5,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#777777",
+                        "fontSize": 14,
+                        "lineHeight": 19,
+                      },
+                    ]
+                  }
+                >
+                  Phone Number
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                        "flexWrap": "wrap",
+                        "fontSize": 16,
+                        "lineHeight": 19,
+                        "marginTop": 5,
+                      },
+                    ]
+                  }
+                >
+                  8918163250
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

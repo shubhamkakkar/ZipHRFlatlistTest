@@ -22,6 +22,7 @@
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
+    "@testing-library/jest-native": "^3.1.0",
     "@types/react": "^16.9.41",
     "@types/react-native": "^0.62.16",
     "@typescript-eslint/eslint-plugin": "^3.5.0",
@@ -35,10 +36,16 @@
     "eslint-plugin-react-hooks": "^4.0.5",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",
+    "react-native-testing-library": "^2.1.0",
     "react-test-renderer": "16.11.0",
     "typescript": "^3.9.6"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js",
+      "./mock.js"
+    ],
+    "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"]
   }
 }
