@@ -11,7 +11,7 @@ export default function PanelLabelAndValue({ title, value }: TPanelLabelAndValue
   return (
     <View style={[styles.container]}>
       <Text style={[styles.panelTextLabel]}>{title}</Text>
-      <Text style={[styles.panelTextValue]}>{value?.toString().trim()}</Text>
+      <Text style={[styles.panelTextValue]}>{value && value.toString().trim()}</Text>
     </View>
   );
 }

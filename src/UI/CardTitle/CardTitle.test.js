@@ -19,6 +19,8 @@ it('CardTitle matches snapshot - props: {{ title: "Title", color: "red" }}', () 
 });
 
 it('CardTitle matches snapshot - props: {{ title: "Title", color: "red"  , center: true}}', () => {
-  const tree = renderer.create(<CardTitle {...{ title: 'Title', color: 'red', center: true }} />).toJSON();
+  const tree = renderer
+    .create(<CardTitle {...{ title: 'Title', color: 'red', center: true }} />)
+    .toJSON();
   expect(tree).toMatchSnapshot();
 });
